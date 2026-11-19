@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071B17">
+  <meta name="description" content="ECO SPHERE — интерактивный образовательный проект о природе, загрязнении окружающей среды и будущем планеты.">
+  <title>ECO SPHERE — Наша планета. Наша ответственность.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress"><span id="progressBar"></span></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="ECO SPHERE — на главную"><span class="brand-mark">E</span><span>ECO<span class="brand-light">SPHERE</span></span></a>
+    <div class="top-note">НАША ПЛАНЕТА. НАША ОТВЕТСТВЕННОСТЬ.</div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Открыть навигацию" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <nav class="side-nav" id="sideNav" aria-label="Навигация по разделам">
+    <a href="#home" class="nav-link active" aria-label="Главная"><i>01</i><span>Главная</span></a>
+    <a href="#problem" class="nav-link" aria-label="Проблема"><i>02</i><span>Проблема</span></a>
+    <a href="#causes" class="nav-link" aria-label="Причины"><i>03</i><span>Причины</span></a>
+    <a href="#impact" class="nav-link" aria-label="Последствия"><i>04</i><span>Последствия</span></a>
+    <a href="#water" class="nav-link" aria-label="Вода"><i>05</i><span>Вода</span></a>
+    <a href="#solutions" class="nav-link" aria-label="Решения"><i>06</i><span>Решения</span></a>
+    <a href="#action" class="nav-link" aria-label="Действия"><i>07</i><span>Действия</span></a>
+    <a href="#future" class="nav-link" aria-label="Будущее"><i>08</i><span>Будущее</span></a>
+    <a href="#final" class="nav-link" aria-label="Финал"><i>09</i><span>Финал</span></a>
+  </nav>
+
+  <main>
+    <section class="scene hero" id="home" data-scene>
+      <div class="hero-image parallax" data-speed="0.16"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow reveal">ДОКУМЕНТАЛЬНЫЙ ПРОЕКТ <span>•</span> 2026</p>
+        <h1 class="reveal">Земля —<br><em>наш общий дом.</em></h1>
+        <p class="hero-copy reveal">Природа даёт нам воздух, воду, пищу и жизнь. Но каждый день деятельность человека всё сильнее меняет окружающий мир.</p>
+        <a class="round-link reveal" href="#problem"><span>Исследовать проблему</span><b>↓</b></a>
+      </div>
+      <div class="hero-aside">ПРИРОДА НЕ НУЖДАЕТСЯ В НАС.<br>МЫ НУЖДАЕМСЯ В ПРИРОДЕ.</div>
+      <div class="hero-index"><span>01</span> / 09</div>
+      <div class="scroll-cue">ЛИСТАЙТЕ ВНИЗ <span></span></div>
+    </section>
+
+    <section class="scene intro dark" id="problem" data-scene>
+      <div class="section-head reveal"><span class="kicker">02 / СИТУАЦИЯ</span><span class="line"></span><span class="kicker">ГЛОБАЛЬНЫЙ ВЫЗОВ</span></div>
+      <div class="intro-grid">
+        <div class="intro-title reveal"><h2>Что происходит<br>с <em>природой?</em></h2><p class="big-note">Планета меняется быстрее, чем мы успеваем это осознать.</p></div>
+        <div class="intro-text reveal"><p>Загрязнение окружающей среды — это попадание в природу вредных веществ и отходов, которые нарушают естественные процессы и негативно влияют на живые организмы.</p><p>Проблема не знает границ. Загрязнение воздуха, воды и почвы может распространяться на огромные территории и затрагивать миллионы людей.</p><div class="micro-quote">Это не далёкая угроза. Это часть нашей реальности.</div></div>
+      </div>
+      <div class="pollution-strip">
+        <article class="pollution-tile air"><div><span>01</span><h3>Воздух</h3><p>То, чем мы дышим каждый день.</p></div></article>
+        <article class="pollution-tile water-tile"><div><span>02</span><h3>Вода</h3><p>Источник жизни, который мы загрязняем.</p></div></article>
+        <article class="pollution-tile soil"><div><span>03</span><h3>Почва</h3><p>Основа экосистем и продовольствия.</p></div></article>
+        <article class="pollution-tile waste"><div><span>04</span><h3>Отходы</h3><p>След, который остаётся после нас.</p></div></article>
+      </div>
+    </section>
+
+    <section class="scene causes-section" id="causes" data-scene>
+      <div class="section-head reveal"><span class="kicker">03 / ИСТОЧНИКИ</span><span class="line"></span><span class="kicker">ЧЕЛОВЕЧЕСКИЙ ФАКТОР</span></div>
+      <div class="split-heading"><h2 class="reveal">След, который<br>мы <em>оставляем.</em></h2><p class="reveal">За экологическими кризисами стоят конкретные процессы и решения. Понимание причин — первый шаг к переменам.</p></div>
+      <div class="cause-grid">
+        <article class="cause-card cause-one reveal"><div class="cause-photo"></div><div class="cause-info"><span>01 — ПРОИЗВОДСТВО</span><h3>Промышленность</h3><p>Заводы и предприятия могут выбрасывать загрязняющие вещества в атмосферу и сбрасывать отходы в воду.</p></div></article>
+        <article class="cause-card cause-two reveal"><div class="cause-photo"></div><div class="cause-info"><span>02 — ПЕРЕДВИЖЕНИЕ</span><h3>Транспорт</h3><p>Автомобили и другие транспортные средства с двигателями внутреннего сгорания создают выбросы.</p></div></article>
+        <article class="cause-card cause-three reveal"><div class="cause-photo"></div><div class="cause-info"><span>03 — ПОТРЕБЛЕНИЕ</span><h3>Пластик и отходы</h3><p>Неправильная утилизация мусора приводит к загрязнению земли, рек и океанов.</p></div></article>
+        <article class="cause-card cause-four reveal"><div class="cause-photo"></div><div class="cause-info"><span>04 — УТРАТА</span><h3>Вырубка лесов</h3><p>Уничтожение лесов разрушает естественные места обитания животных и растений.</p></div></article>
+      </div>
+    </section>
+
+    <section class="scene impact-section dark" id="impact" data-scene>
+      <div class="impact-bg"></div><div class="impact-overlay"></div>
+      <div class="impact-content">
+        <div class="section-head reveal"><span class="kicker">04 / ПОСЛЕДСТВИЯ</span><span class="line"></span><span class="kicker">ЦЕНА БЕЗДЕЙСТВИЯ</span></div>
+        <h2 class="reveal">У природы есть<br><em>предел.</em></h2>
+        <div class="impact-list">
+          <article class="impact-item reveal"><span>01</span><div><h3>Здоровье человека</h3><p>Загрязнённый воздух и вода повышают риски заболеваний и ухудшают качество жизни.</p></div><b>↗</b></article>
+          <article class="impact-item reveal"><span>02</span><div><h3>Изменение климата</h3><p>Выбросы парниковых газов усиливают глобальное потепление и меняют климатические условия.</p></div><b>↗</b></article>
+          <article class="impact-item reveal"><span>03</span><div><h3>Исчезновение видов</h3><p>Разрушение мест обитания и загрязнение среды угрожают разнообразию жизни.</p></div><b>↗</b></article>
+          <article class="impact-item reveal"><span>04</span><div><h3>Качество жизни</h3><p>Чистая вода, свежий воздух и плодородная почва — ресурсы, без которых невозможно будущее.</p></div><b>↗</b></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene water-section" id="water" data-scene>
+      <div class="water-photo"></div>
+      <div class="water-copy">
+        <div class="section-head reveal"><span class="kicker">05 / ВОДА</span><span class="line"></span><span class="kicker">СИНЯЯ ПЛАНЕТА</span></div>
+        <p class="eyebrow reveal">ОКЕАНЫ И РЕКИ</p>
+        <h2 class="reveal">Вода —<br>это <em>жизнь.</em></h2>
+        <p class="reveal">Пластиковые отходы, промышленные стоки и химические вещества загрязняют водоёмы. Пластик может сохраняться в окружающей среде десятилетиями и даже столетиями.</p>
+        <p class="reveal">Животные могут запутываться в отходах или принимать пластик за пищу. Защита рек, озёр и океанов — одна из важнейших экологических задач человечества.</p>
+        <div class="water-caption reveal"><span>БЕРЕГИ ВОДУ</span><span>БЕЗ НЕЁ НЕТ БУДУЩЕГО</span></div>
+      </div>
+    </section>
+
+    <section class="scene solutions-section" id="solutions" data-scene>
+      <div class="solutions-top">
+        <div class="section-head reveal"><span class="kicker">06 / ВОЗМОЖНОСТИ</span><span class="line"></span><span class="kicker">ПУТЬ К ПЕРЕМЕНАМ</span></div>
+        <h2 class="reveal">Будущее можно<br><em>изменить.</em></h2>
+        <p class="reveal">Решение экологических проблем требует совместных действий: от личных привычек до государственных программ и новых технологий.</p>
+      </div>
+      <div class="solution-layout">
+        <div class="solution-image reveal"><div class="image-label">ЭНЕРГИЯ БЕЗ ЛИШНЕГО СЛЕДА</div></div>
+        <div class="solution-list">
+          <div class="solution-row reveal"><span>01</span><p>Раздельный сбор и переработка отходов</p><b>↗</b></div>
+          <div class="solution-row reveal"><span>02</span><p>Общественный транспорт и меньше поездок на авто</p><b>↗</b></div>
+          <div class="solution-row reveal"><span>03</span><p>Отказ от лишнего одноразового пластика</p><b>↗</b></div>
+          <div class="solution-row reveal"><span>04</span><p>Экономия воды и электроэнергии</p><b>↗</b></div>
+          <div class="solution-row reveal"><span>05</span><p>Защита лесов и восстановление экосистем</p><b>↗</b></div>
+          <div class="solution-row reveal"><span>06</span><p>Солнечная и ветровая энергетика</p><b>↗</b></div>
+          <div class="solution-row reveal"><span>07</span><p>Экологическое образование и просвещение</p><b>↗</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene action-section dark" id="action" data-scene>
+      <div class="action-deco">ACT<br>NOW</div>
+      <div class="action-inner">
+        <div class="section-head reveal"><span class="kicker">07 / ЛИЧНЫЙ ВЫБОР</span><span class="line"></span><span class="kicker">НАЧНИ С СЕБЯ</span></div>
+        <div class="action-heading"><h2 class="reveal">Маленькие<br>поступки.<br><em>Большие перемены.</em></h2><div class="action-intro reveal"><p>Отметь действия, которые готов делать регулярно. Каждый пункт — небольшой вклад в общее дело.</p><div class="counter"><strong id="doneCount">0</strong><span>из 7 действий выбрано</span><div class="counter-track"><i id="counterFill"></i></div></div></div></div>
+        <div class="checklist">
+          <label class="check-row"><input type="checkbox"><span class="custom-check">✓</span><span>Не оставлять мусор на природе</span><small>01</small></label>
+          <label class="check-row"><input type="checkbox"><span class="custom-check">✓</span><span>Использовать многоразовые пакеты и бутылки</span><small>02</small></label>
+          <label class="check-row"><input type="checkbox"><span class="custom-check">✓</span><span>Не тратить воду без необходимости</span><small>03</small></label>
+          <label class="check-row"><input type="checkbox"><span class="custom-check">✓</span><span>Выключать ненужное освещение</span><small>04</small></label>
+          <label class="check-row"><input type="checkbox"><span class="custom-check">✓</span><span>Сортировать отходы там, где это возможно</span><small>05</small></label>
+          <label class="check-row"><input type="checkbox"><span class="custom-check">✓</span><span>Участвовать в уборке территорий</span><small>06</small></label>
+          <label class="check-row"><input type="checkbox"><span class="custom-check">✓</span><span>Бережно относиться к животным и растениям</span><small>07</small></label>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene future-section" id="future" data-scene>
+      <div class="future-image"></div><div class="future-tint"></div>
+      <div class="future-content">
+        <div class="section-head reveal"><span class="kicker">08 / ЗАВТРА</span><span class="line"></span><span class="kicker">ЭКОЛОГИЧЕСКОЕ БУДУЩЕЕ</span></div>
+        <p class="eyebrow reveal">НАШ ВЫБОР ИМЕЕТ ЗНАЧЕНИЕ</p>
+        <h2 class="reveal">Какой мир<br>мы <em>оставим?</em></h2>
+        <p class="future-text reveal">Будущее планеты зависит от решений, которые мы принимаем сегодня. Мы не можем полностью изменить прошлое, но можем повлиять на будущее.</p>
+        <p class="future-text reveal">Сохранение природы — не обязанность отдельных людей. Это общая ответственность всего человечества.</p>
+        <div class="future-sign reveal">ПЛАНЕТА — НАШ ОБЩИЙ ДОМ <span>✳</span></div>
+      </div>
+    </section>
+
+    <section class="scene final-section dark" id="final" data-scene>
+      <div class="final-image"></div><div class="final-shade"></div>
+      <div class="final-content">
+        <p class="eyebrow reveal">ECO SPHERE / НАША ПЛАНЕТА. НАША ОТВЕТСТВЕННОСТЬ.</p>
+        <h2 class="reveal">У нас нет<br><em>запасной планеты.</em></h2>
+        <p class="reveal">Береги природу сегодня,<br>чтобы завтра было что сохранить.</p>
+        <a class="round-link reveal" href="#home"><span>Вернуться в начало</span><b>↑</b></a>
+      </div>
+      <footer><a class="brand" href="#home"><span class="brand-mark">E</span><span>ECO<span class="brand-light">SPHERE</span></span></a><span>ПРИРОДА — НАШЕ ОБЩЕЕ БУДУЩЕЕ</span><span>© 2026</span></footer>
+    </section>
+  </main>
+  <div class="scene-controls"><button id="prevScene" aria-label="Предыдущий раздел">↑</button><button id="nextScene" aria-label="Следующий раздел">↓</button></div>
+  <script src="script.js"></script>
+</body>
+</html>
